@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Aplicativo de Autoatendimento para Restaurantes 😋🍽️ <br>
 
-## Getting Started
+Este é um projeto de um aplicativo de autoatendimento para restaurantes, desenvolvido para melhorar a experiência do cliente e otimizar o processo de pedidos, pagamentos e interações dentro do restaurante.
 
-First, run the development server:
+O aplicativo permite que os clientes façam pedidos diretamente da mesa através de seus dispositivos móveis, sem a necessidade de interagir diretamente com garçom ou atendente, o que torna o processo mais rápido e eficiente.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Funcionalidades:** <br>
+- Cardápio Digital: O cliente pode visualizar o cardápio completo do restaurante, com descrições detalhadas dos pratos e fotos. <br>
+- Pedidos Personalizados: O cliente escolhe os itens que deseja e realiza pedidos diretamente pelo aplicativo. <br>
+- Controle de Pedidos: O restaurante pode visualizar e gerenciar os pedidos em tempo real. <br>
+- Interface Amigável: Design simples e intuitivo para garantir uma experiência agradável tanto para os clientes quanto para os atendentes. <br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Tecnologias Utilizadas:** <br>
+⚛ Frontend:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+React: Biblioteca para construção de interfaces de usuário. <br>
+Next.js: Framework React para construção de aplicações web escaláveis e otimizadas, com recursos como renderização do lado do servidor (SSR) e geração de sites estáticos (SSG)<br>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+👨🏻‍💻  Backend:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Node.js: Ambiente de execução para JavaScript no servidor. <br>
+Express: Framework web minimalista para Node.js, utilizado para construir a API do backend.<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+🛢 Banco de Dados:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+PostgreSQL: Banco de dados relacional robusto e de alto desempenho, utilizado para armazenar dados de usuários, pedidos e transações.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##
+
+Projeto desenvolvido durante o evento de Fullstack Week do Dev Felipe Rocha pela plataforma do Youtube.<br>
+
+<a href="https://www.youtube.com/@dicasparadevs" target="_blank"><img src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png" height="20" width="25">  Você pode acompanhar clicando aqui!
