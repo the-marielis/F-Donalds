@@ -55,6 +55,7 @@ const RestaurantCategories = ({ restaurant }: RestaurantCategoriesProps) => {
         </div>
       </div>
 
+      {/*SCROLL*/}
       <ScrollArea className="w-full">
         <div className="flex w-max space-x-4 p-4 pt-0">
           {restaurant.menuCategories.map((category) => (
@@ -71,8 +72,11 @@ const RestaurantCategories = ({ restaurant }: RestaurantCategoriesProps) => {
         </div>
         <ScrollBar orientation="horizontal" />
       </ScrollArea>
-
+        
+      {/*NOME DA CATEGORIA SELECIONADA*/}
       <h3 className="px-5 pt-2 font-semibold">{selectedCategory.name}</h3>
+
+      {/*BUSCA A LISTA DE PRODUTOS DA CATEGORIA SELECIONADA*/}
       <Products products={selectedCategory.products} />
     </div>
   );
