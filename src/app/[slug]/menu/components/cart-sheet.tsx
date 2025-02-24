@@ -3,7 +3,6 @@ import { useContext } from "react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
@@ -18,13 +17,12 @@ const CartSheet = () => {
       <SheetContent className="w-[85%]">
         <SheetHeader>
           <SheetTitle>Sacola</SheetTitle>
-          <SheetDescription>
-
-          </SheetDescription>
         </SheetHeader>
-        {products.map((product) => (
-          <CartProductItem key={product.id} product={ product } />
-        ))}
+        <div className="py-5">
+          {products.map((product) => (
+            <CartProductItem key={product.id} product={ product } />
+          ))}
+        </div>
       </SheetContent>
     </Sheet>
   );

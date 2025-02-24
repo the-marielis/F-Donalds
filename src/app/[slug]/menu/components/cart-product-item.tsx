@@ -20,7 +20,7 @@ const CartProductItem = ({ product }: CartItemProps) => {
                 <Image src={product.imageUrl} alt={product.name} fill/>
             </div>
             <div className="space-y-1">
-                <p className="text-xs">{product.name}</p>
+                <p className="text-xs max-w-[90%] truncate text-ellipsis">{product.name}</p>
                 <p className="text-sm font-semibold">{formatCurrency(product.price)}</p>
                 {/* QUANTIDADE */}
                 <div className="flex items-center gap-1 text-center">
